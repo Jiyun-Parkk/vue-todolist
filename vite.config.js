@@ -11,5 +11,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src/', import.meta.url)),
     },
   },
-  publicDir: 'https://jiyun-parkk.github.io/vue-todolist/dist/',
+  base: 'https://jiyun-parkk.github.io/vue-todolist/dist/',
 });
