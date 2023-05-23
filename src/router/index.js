@@ -10,9 +10,8 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/*',
+      path: '/:pathMatch(.*)*',
       redirect: '/',
-      component: HomeView,
     },
   ],
 });
