@@ -11,7 +11,6 @@ list && store.actions.setTodo(list);
 
 <template>
   <DefaultLayout>
-    <h2>todo</h2>
     <AppHeader />
     <AppSection />
   </DefaultLayout>
