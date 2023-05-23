@@ -1,6 +1,6 @@
 <script setup>
-import TodoHeader from './todos/TodoHeader.vue'
-import TodoList from './todos/TodoList.vue'
+import TodoHeader from './todos/TodoHeader.vue';
+import TodoList from './todos/TodoList.vue';
 
 const props = defineProps({
   icon: {
@@ -9,11 +9,11 @@ const props = defineProps({
       return {
         todo: '',
         progress: '',
-        done: ''
-      }
-    }
-  }
-})
+        done: '',
+      };
+    },
+  },
+});
 </script>
 <template>
   <section>
